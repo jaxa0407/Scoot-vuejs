@@ -124,7 +124,7 @@ export default {}
         color: #495567;
     }
 
-    @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .download {
         max-width: 1440px;
         width: 100%;

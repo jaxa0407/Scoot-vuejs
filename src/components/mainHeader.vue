@@ -239,6 +239,7 @@ export default {
 		position: absolute;
 		top: 64px;
 		width: 100%;
+		left: -20px;
 		height: calc(100vh - 100%);
 		background: rgba(0, 0, 0, 0.075);
 		-webkit-transform: translateX(-200%);
