@@ -1,68 +1,75 @@
 @import "./base.css";
 
 @font-face {
-  font-family: 'Lexend Deca';
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/lexend-deca-v16-latin-regular.woff2") format("woff2"), url("../fonts/lexend-deca-v16-latin-regular.woff") format("woff");
+	font-family: "Lexend Deca";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/lexend-deca-v16-latin-regular.woff2") format("woff2"), url("../fonts/lexend-deca-v16-latin-regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Lexend Deca';
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/lexend-deca-v16-latin-700.woff2") format("woff2"), url("../fonts/lexend-deca-v16-latin-700.woff") format("woff");
+	font-family: "Lexend Deca";
+	font-style: normal;
+	font-weight: 700;
+	src: url("../fonts/lexend-deca-v16-latin-700.woff2") format("woff2"), url("../fonts/lexend-deca-v16-latin-700.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Space Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/space-mono-v11-latin-regular.woff2") format("woff2"), url("../fonts/space-mono-v11-latin-regular.woff") format("woff");
+	font-family: "Space Mono";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/space-mono-v11-latin-regular.woff2") format("woff2"), url("../fonts/space-mono-v11-latin-regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Space Mono';
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/space-mono-v11-latin-700.woff2") format("woff2"), url("../fonts/space-mono-v11-latin-700.woff") format("woff");
+	font-family: "Space Mono";
+	font-style: normal;
+	font-weight: 700;
+	src: url("../fonts/space-mono-v11-latin-700.woff2") format("woff2"), url("../fonts/space-mono-v11-latin-700.woff") format("woff");
 }
 
 body {
-    overflow-x: hidden;
-    font-family: 'Space Mono', 'Arial';
+	overflow-x: hidden;
+	font-family: "Space Mono", "Arial";
+	padding-top: 100px;
 }
 
 .container {
-    max-width: 1150px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+	max-width: 1150px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    border: 0;
-    clip: rect(0 0 0 0)
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+	clip: rect(0 0 0 0);
 }
 ul {
-    list-style-type: none;
-    margin: 0;
+	list-style-type: none;
+	margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p{
-    margin: 0;
-    padding: 0;
-    font-family: 'Lexend Deca';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+	font-family: "Lexend Deca";
 }
 
 p {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }

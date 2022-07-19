@@ -4,34 +4,35 @@ import mainHero from "./components/mainHero.vue";
 import mainFunction from "./components/mainFunction.vue";
 import mainDownload from "./components/mainDownload.vue";
 import mainFooter from "./components/mainFooter.vue";
+import mainHeader from "./components/mainHeader.vue";
 
 
 export default {
-  components: {
-    component_stage,
-    mainHero,
-    mainFunction,
-    mainDownload,
-    mainFooter,
-}
+	components: {
+		component_stage,
+		mainHero,
+		mainFunction,
+		mainDownload,
+		mainFooter,
+		mainHeader,
+	}
 }
 
 </script>
 
 <template>
-<!-- {{ router }} -->
 
-  <!-- <header> -->
-    <RouterView />
-  <!-- </header> -->
+	<header>
+		<mainHeader />
+	</header>
+	<RouterView />
+	<main>
+		<mainDownload />
+	</main>
 
-  <!-- <main>
-    <mainHero />
-    <component_stage />
-    <mainFunction />
-    <mainDownload />
-    <mainFooter />
-  </main> -->
+	<footer>
+		<mainFooter />
+	</footer>
 
 
 </template>
